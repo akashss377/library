@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(6, 2, 19);
+}
+nav{
+     position: absolute;
+     bottom: 573px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+nav a{
+    color: rgb(244, 243, 247);
+    text-decoration: none;
+    border: 2px solid rgb(250, 247, 247);
+    padding: 5px;
+    margin-right: 25px;
+}
+.nav a:hover{
+    color: rgb(255, 0, 0) !important;
+    background-color: rgba(0, 255, 68, 0.611);
+}
+#log1{
+    margin-left: 25px;
+    margin-top: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100;
+}
+.signup-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+.signup-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.btn-signup {
+    width: 100%;
+    background-color: #1e7adb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+.text-center {
+    margin-top: 20px;
+}
+
+.switch-btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.switch-btn a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.switch-btn a:hover {
+    color: #0056b3;
+}
